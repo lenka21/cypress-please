@@ -4,6 +4,10 @@
   "description": "TypeScript NPM Module Boilerplate",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "engines": {
+    "node": "20.18.0",
+    "npm": "10.8.2"
+  },
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
